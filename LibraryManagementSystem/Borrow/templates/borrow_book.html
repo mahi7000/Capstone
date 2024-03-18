@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Borrow Book</title>
+</head>
+<body>
+  <h2>Borrow Book</h2>
+  <p>Title: {{ book.title }}</p>
+  <p>Author: {{ book.author }}</p>
+  
+  <h3>Borrowed Books:</h3>
+  <ul>
+    {% for borrowed_book in borrowed_books %}
+      <li>{{ borrowed_book.student.username }} borrowed {{ borrowed_book.book.title }}</li>
+    {% empty %}
+      <li>No books borrowed yet.</li>
+    {% endfor %}
+  </ul>
+  
+  <form method="POST">
+    {% csrf_token %}
+    <button type="submit">Borrow</button>
+  </form>
+</body>
+</html>
