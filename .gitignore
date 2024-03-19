@@ -14738,3 +14738,15 @@ LibraryManagementSystem/users/__pycache__/forms.cpython-312.pyc
 LibraryManagementSystem/users/__pycache__/models.cpython-312.pyc
 LibraryManagementSystem/users/__pycache__/views.cpython-312.pyc
 LibraryManagementSystem/users/migrations/__pycache__/__init__.cpython-312.pyc
+LibraryManagementSystem/LibraryManagementSystem/__pycache__/settings.cpython-312.pyc
+LibraryManagementSystem/LibraryManagementSystem/__pycache__/urls.cpython-312.pyc
+LibraryManagementSystem/Search/__init__.py
+LibraryManagementSystem/Search/admin.py
+LibraryManagementSystem/Search/apps.py
+LibraryManagementSystem/Search/models.py
+LibraryManagementSystem/Search/tests.py
+LibraryManagementSystem/Search/views.py
+LibraryManagementSystem/users/__pycache__/admin.cpython-312.pyc
+LibraryManagementSystem/users/__pycache__/models.cpython-312.pyc
+LibraryManagementSystem/users/__pycache__/urls.cpython-312.pyc
+LibraryManagementSystem/users/__pycache__/views.cpython-312.pyc

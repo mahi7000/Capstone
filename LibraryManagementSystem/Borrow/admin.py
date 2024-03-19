@@ -4,4 +4,3 @@ from BookManagment.models import Book
 
 
 admin.site.register(Borrowed_Book)
-#admin.site.register(Book)

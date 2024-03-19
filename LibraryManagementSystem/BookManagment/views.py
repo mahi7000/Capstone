@@ -2,7 +2,10 @@ from django.contrib.admin.views.decorators import staff_member_required
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import  BookForm
 from .models import Book
+from django.http import HttpResponse
 
+def home_book(request):
+    return HttResponse('Books page')
 
 def book_list(request):
     books = Book.objects.all()

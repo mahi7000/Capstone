@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class SearchConfig(AppConfig):
+class ReviewConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'Search'
+    name = 'Review'
